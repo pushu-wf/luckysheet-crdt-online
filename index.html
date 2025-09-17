@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Luckysheet 协同增强版</title>
+		<link rel="stylesheet" href="/lib/plugins/css/pluginsCss.css" />
+		<link rel="stylesheet" href="/lib/plugins/plugins.css" />
+		<link rel="stylesheet" href="/lib/css/luckysheet.css" />
+		<link rel="stylesheet" href="/lib/assets/iconfont/iconfont.css" />
+		<script src="/lib/plugins/js/plugin.js"></script>
+		<script src="/lib/luckysheet.umd.js"></script>
+		<style>
+			html,
+			body,
+			#container {
+				height: 100vh;
+				width: 100vw;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app">
+			<div class="container" id="container"></div>
+		</div>
+		<script src="./demoData.js"></script>
+		<script>
+			console.log("%c         🎉 欢迎体验 Luckysheet 协同增强版          ", "background:#55bb8a;color:#ffffff;padding:2px 5px;");
+			console.log("1️⃣ 当前版本：master-alpha-40e9510");
+			console.log("2️⃣ 最后提交时间：2025-09-16");
+			console.log("3️⃣ 仓库地址：https://gitee.com/wfeng0/luckysheet-crdt");
+			console.log("%c -----------------------------------------------------", "background:#55bb8a;color:#55bb8a;");
+
+			// 注册插件
+			const registerPlugins = () => {
+				return [
+					{
+						name: "chart",
+						dependScripts: [
+							"/lib/expendPlugins/libs/vue@2.6.11.min.js",
+							"/lib/expendPlugins/libs/vuex.min.js",
+							"/lib/expendPlugins/libs/elementui.min.js",
+							"/lib/expendPlugins/libs/echarts.min.js",
+							"/lib/expendPlugins/libs/chartmix.umd.min.js",
+						],
+						dependLinks: ["/lib/expendPlugins/libs/element-ui.css", "/lib/expendPlugins/libs/chartmix.css"],
+					},
+					{
+						name: "vchart",
+						dependScripts: ["/lib/expendPlugins/libs/vchart.min.js"],
+						dependLinks: ["/lib/expendPlugins/libs/vchart.css"],
+					},
+					{
+						name: "fileImport",
+						dependScripts: ["/lib/expendPlugins/libs/luckyexcel.umd.js"],
+					},
+					{
+						name: "fileExport",
+						dependScripts: ["/lib/expendPlugins/libs/exceljs.min.js", "/lib/expendPlugins/libs/fileSaver.min.js"],
+					},
+				];
+			};
+
+			(() => {
+				// 初始化 luckysheet 配置
+				const options = {
+					lang: "zh",
+					title: "Luckysheet",
+					container: "container",
+					data: [sheetData],
+					plugins: registerPlugins(),
+					menuHandler: {
+						customs: [
+							{
+								label: "测试",
+								value: "demo",
+							},
+						],
+					},
+				};
+
+				// 初始化 luckysheet
+				luckysheet.create(options);
+			})();
+		</script>
+	</body>
+</html>
