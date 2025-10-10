@@ -1680,8 +1680,8 @@ window.sheetData = {
 			r: 12,
 			c: 0,
 			v: {
-				m: "4️⃣ 其他优化：",
-				v: "4️⃣ 其他优化：",
+				m: "其他优化：",
+				v: "其他优化：",
 				mc: {
 					r: 12,
 					c: 0,
@@ -2984,6 +2984,96 @@ window.sheetData = {
 			},
 		},
 		{
+			r: 24,
+			c: 7,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+					rs: 2,
+					cs: 8,
+				},
+				bg: "#55bb8a",
+				fc: "#ffffff",
+				m: "4️⃣ 新增 左斜线 | 右斜线 边框类型",
+				ct: {
+					fa: "General",
+					t: "g",
+				},
+				v: "4️⃣ 新增 左斜线 | 右斜线 边框类型",
+			},
+		},
+		{
+			r: 24,
+			c: 8,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 24,
+			c: 9,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 24,
+			c: 10,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 24,
+			c: 11,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 24,
+			c: 12,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 24,
+			c: 13,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 24,
+			c: 14,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
 			r: 25,
 			c: 0,
 			v: {
@@ -3040,6 +3130,86 @@ window.sheetData = {
 				mc: {
 					r: 24,
 					c: 0,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 7,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 8,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 9,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 10,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 11,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 12,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 13,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 25,
+			c: 14,
+			v: {
+				mc: {
+					r: 24,
+					c: 7,
 				},
 			},
 		},
@@ -3172,6 +3342,125 @@ window.sheetData = {
 			},
 		},
 		{
+			r: 27,
+			c: 7,
+			v: {
+				mc: {
+					r: 27,
+					c: 7,
+					rs: 3,
+					cs: 2,
+				},
+				ct: {
+					fa: "General",
+					t: "inlineStr",
+					s: [
+						{
+							ff: '"times new roman"',
+							fc: "#000000",
+							fs: 10,
+							cl: 0,
+							un: 0,
+							bl: 0,
+							it: 0,
+							v: "左斜线\r\n                             哈哈哈",
+						},
+					],
+				},
+			},
+		},
+		{
+			r: 27,
+			c: 8,
+			v: {
+				mc: {
+					r: 27,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 27,
+			c: 10,
+			v: {
+				mc: {
+					r: 27,
+					c: 10,
+					rs: 3,
+					cs: 2,
+				},
+				ct: {
+					fa: "General",
+					t: "inlineStr",
+					s: [
+						{
+							ff: '"times new roman"',
+							fc: "#000000",
+							fs: 10,
+							cl: 0,
+							un: 0,
+							bl: 0,
+							it: 0,
+							v: "                                 项目\r\n日期",
+						},
+					],
+				},
+			},
+		},
+		{
+			r: 27,
+			c: 11,
+			v: {
+				mc: {
+					r: 27,
+					c: 10,
+				},
+			},
+		},
+		{
+			r: 27,
+			c: 12,
+			v: {},
+		},
+		{
+			r: 27,
+			c: 13,
+			v: {
+				mc: {
+					r: 27,
+					c: 13,
+					rs: 3,
+					cs: 2,
+				},
+				ct: {
+					fa: "General",
+					t: "inlineStr",
+					s: [
+						{
+							ff: "Times New Roman",
+							fc: "#000000",
+							fs: 10,
+							cl: 0,
+							un: 0,
+							bl: 0,
+							it: 0,
+							v: "朴树\r\n                            pushu",
+						},
+					],
+				},
+			},
+		},
+		{
+			r: 27,
+			c: 14,
+			v: {
+				mc: {
+					r: 27,
+					c: 13,
+				},
+			},
+		},
+		{
 			r: 28,
 			c: 0,
 			v: {
@@ -3242,6 +3531,71 @@ window.sheetData = {
 			},
 		},
 		{
+			r: 28,
+			c: 7,
+			v: {
+				mc: {
+					r: 27,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 28,
+			c: 8,
+			v: {
+				mc: {
+					r: 27,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 28,
+			c: 10,
+			v: {
+				mc: {
+					r: 27,
+					c: 10,
+				},
+			},
+		},
+		{
+			r: 28,
+			c: 11,
+			v: {
+				mc: {
+					r: 27,
+					c: 10,
+				},
+			},
+		},
+		{
+			r: 28,
+			c: 12,
+			v: {},
+		},
+		{
+			r: 28,
+			c: 13,
+			v: {
+				mc: {
+					r: 27,
+					c: 13,
+				},
+			},
+		},
+		{
+			r: 28,
+			c: 14,
+			v: {
+				mc: {
+					r: 27,
+					c: 13,
+				},
+			},
+		},
+		{
 			r: 29,
 			c: 0,
 			v: {
@@ -3298,6 +3652,71 @@ window.sheetData = {
 				mc: {
 					r: 28,
 					c: 0,
+				},
+			},
+		},
+		{
+			r: 29,
+			c: 7,
+			v: {
+				mc: {
+					r: 27,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 29,
+			c: 8,
+			v: {
+				mc: {
+					r: 27,
+					c: 7,
+				},
+			},
+		},
+		{
+			r: 29,
+			c: 10,
+			v: {
+				mc: {
+					r: 27,
+					c: 10,
+				},
+			},
+		},
+		{
+			r: 29,
+			c: 11,
+			v: {
+				mc: {
+					r: 27,
+					c: 10,
+				},
+			},
+		},
+		{
+			r: 29,
+			c: 12,
+			v: {},
+		},
+		{
+			r: 29,
+			c: 13,
+			v: {
+				mc: {
+					r: 27,
+					c: 13,
+				},
+			},
+		},
+		{
+			r: 29,
+			c: 14,
+			v: {
+				mc: {
+					r: 27,
+					c: 13,
 				},
 			},
 		},
@@ -3394,7 +3813,125 @@ window.sheetData = {
 				rs: 2,
 				cs: 6,
 			},
+			"24_7": {
+				r: 24,
+				c: 7,
+				rs: 2,
+				cs: 8,
+			},
+			"27_7": {
+				r: 27,
+				c: 7,
+				rs: 3,
+				cs: 2,
+			},
+			"27_10": {
+				r: 27,
+				c: 10,
+				rs: 3,
+				cs: 2,
+			},
+			"27_13": {
+				r: 27,
+				c: 13,
+				rs: 3,
+				cs: 2,
+			},
 		},
+		borderInfo: [
+			{
+				rangeType: "range",
+				borderType: "border-rt-lb",
+				color: "#000",
+				style: "1",
+				range: [
+					{
+						left: 518,
+						width: 147,
+						top: 539,
+						height: 60,
+						left_move: 518,
+						width_move: 147,
+						top_move: 540,
+						height_move: 59,
+						row: [27, 29],
+						column: [7, 8],
+						row_focus: 27,
+						column_focus: 7,
+					},
+				],
+				timestamp: 1760064390751,
+			},
+			{
+				rangeType: "range",
+				borderType: "border-lt-rb",
+				color: "#000",
+				style: "1",
+				range: [
+					{
+						left: 740,
+						width: 221,
+						top: 539,
+						height: 60,
+						left_move: 740,
+						width_move: 221,
+						top_move: 540,
+						height_move: 59,
+						row: [27, 29],
+						column: [10, 12],
+						row_focus: 27,
+						column_focus: 10,
+					},
+				],
+				timestamp: 1760064399944,
+			},
+			{
+				rangeType: "range",
+				borderType: "border-none",
+				color: "#000",
+				style: "1",
+				range: [
+					{
+						left: 888,
+						width: 73,
+						top: 540,
+						height: 19,
+						left_move: 888,
+						width_move: 73,
+						top_move: 540,
+						height_move: 59,
+						row: [27, 29],
+						column: [12, 12],
+						row_focus: 27,
+						column_focus: 12,
+					},
+				],
+				timestamp: 1760064414360,
+			},
+			{
+				rangeType: "range",
+				borderType: "border-rt-lb",
+				color: "#000",
+				style: "1",
+				range: [
+					{
+						left: 962,
+						width: 147,
+						top: 539,
+						height: 60,
+						left_move: 962,
+						width_move: 147,
+						top_move: 540,
+						height_move: 59,
+						row: [27, 29],
+						column: [13, 14],
+						row_focus: 27,
+						column_focus: 13,
+					},
+				],
+				timestamp: 1760064421931,
+			},
+		],
 	},
 	hyperlink: {
 		"6_0": {
