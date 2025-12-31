@@ -74,13 +74,14 @@
 
             (() => {
                 const sheetData = window.sheetData;
+                const sheetCell = window.sheetCell;
 
                 // 初始化 luckysheet 配置
                 const options = {
                     lang: "zh",
                     title: "Luckysheet",
                     container: "container",
-                    data: [sheetData],
+                    data: [sheetData, sheetCell],
                     plugins: registerPlugins(),
                     // 打印像素比，设置越高，越清晰
                     printDevicePixelRatio: 4,
